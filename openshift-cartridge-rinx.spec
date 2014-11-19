@@ -1,7 +1,7 @@
 %global cartridgedir %{_libexecdir}/openshift/cartridges/rinx
 
 Summary:       Provides Rinx support
-Name:          openshift-origin-cartridge-rinx
+Name:          openshift-cartridge-rinx
 Version:       1.0.0
 Release:       1%{?dist}
 Group:         Development/Languages
