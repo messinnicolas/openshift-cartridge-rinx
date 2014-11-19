@@ -2,7 +2,7 @@
 
 Summary:       Provides Rinx support
 Name:          openshift-origin-cartridge-rinx
-Version:       1.0.1
+Version:       1.0.0
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -47,17 +47,4 @@ Provides Rinx support to OpenShift. (Cartridge Format V2)
 %doc %{cartridgedir}/LICENSE
 
 %changelog
-* Wed Nov 19 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.1-1
-- new package built with tito
-
 * Wed Nov 19 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.0
-- Compil Rinx cartridge
-
-* Mon Jul 21 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.2-1
-- Change from 1.4 to 1.2 (nicolas.messin@worldline.com)
-
-* Mon Jul 21 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.1-1
-- new package built with tito
-
-* Mon Jul 21 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.0
-- First version nginx cartridge openshift 4.0
