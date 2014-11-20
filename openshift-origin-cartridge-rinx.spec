@@ -1,13 +1,13 @@
 %global cartridgedir %{_libexecdir}/openshift/cartridges/rinx
 
 Summary:       Provides Rinx support
-Name:          openshift-cartridge-rinx
+Name:          openshift-origin-cartridge-rinx
 Version:       1.0.0
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
 URL:           http://www.openshift.com
-Source0:       http://mirror.openshift.com/pub/openshift-origin/source/%{name}/%{name}-%{version}.tar.gz
+Source0:       https://github.com/messinnicolas/openshift-cartridge-rinx
 Requires:      bc
 Requires:      rubygem(openshift-origin-node)
 Requires:      openshift-origin-node-util

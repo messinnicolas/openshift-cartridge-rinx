@@ -1,9 +1,9 @@
 Name: rinx
 Cartridge-Short-Name:RINX 
 Display-Name: Rinx
-Version: "1.2.3"
-Versions: ["1.2.3"]
-Website: https://github.com/worldline/openshift-nginx-cart
+Version: "1.0.0"
+Versions: ["1.0.0"]
+Website: https://github.com/messinnicolas/openshift-cartridge-rinx
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: worldline
 Categories:
