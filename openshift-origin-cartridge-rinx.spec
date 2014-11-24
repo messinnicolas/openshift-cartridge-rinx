@@ -12,8 +12,6 @@ Requires:      bc
 Requires:      rubygem(openshift-origin-node)
 Requires:      openshift-origin-node-util
 Requires:      lsof
-Provides:      openshift-origin-cartridge-nginx-1.0 = 2.0.0
-Obsoletes:     openshift-origin-cartridge-nginx-1.0 <= 1.99.9
 BuildArch:     noarch
 
 %description
