@@ -4,8 +4,8 @@ source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 
 NGINX_EXEC=/usr/ign-nginx12-1.2.3/sbin/nginx
-NGINX_CONFIG_FILE=$OPENSHIFT_NGINX_DIR/conf/nginx.conf
-NGINX_PID_FILE=$OPENSHIFT_NGINX_DIR/run/nginx.pid
+NGINX_CONFIG_FILE=$OPENSHIFT_RINX_DIR/conf/nginx.conf
+NGINX_PID_FILE=$OPENSHIFT_RINX_DIR/run/nginx.pid
 
 
 function start() {
@@ -47,7 +47,7 @@ function restart() {
 
 function status() {
     res=0
-    output=$(curl -s -m 30 http://$OPENSHIFT_NGINX_IP:$OPENSHIFT_NGINX_PORT/ &> /dev/null) || res=1
+    output=$(curl -s -m 30 http://$OPENSHIFT_RINX_IP:$OPENSHIFT_RINX_PORT/ &> /dev/null) || res=1
 
     if [ $res -eq 0 ]
     then
@@ -74,7 +74,7 @@ function reload() {
 
 
 function tidy() {
-    client_message "Emptying log dir: $OPENSHIFT_NGINX_DIR/logs"
+    client_message "Emptying log dir: $OPENSHIFT_RINX_DIR/logs"
     shopt -s dotglob
     rm -rf logs/*
 }
