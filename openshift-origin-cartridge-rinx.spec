@@ -46,3 +46,4 @@ Provides Rinx support to OpenShift. (Cartridge Format V2)
 
 %changelog
 * Wed Nov 19 2014 Nicolas MESSIN <nicolas.messin@worldline.com> 1.0.0
+-
