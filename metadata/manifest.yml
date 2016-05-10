@@ -1,10 +1,10 @@
 Name: rinx
 Cartridge-Short-Name: RINX 
 Display-Name: Rinx
-Version: "1.0.0"
-Versions: ["1.0.0"]
+Version: "1.0.1"
+Versions: ["1.0.1"]
 Website: https://github.com/messinnicolas/openshift-cartridge-rinx
-Cartridge-Version: 0.0.1
+Cartridge-Version: 0.0.2
 Cartridge-Vendor: worldline
 Categories:
   - service
